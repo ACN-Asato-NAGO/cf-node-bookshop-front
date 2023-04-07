@@ -1,0 +1,7 @@
+---
+applications:
+  - name: bookshop-web
+    random-route: true
+    path: ./
+    memory: 128M
+    buildpack: nodejs_buildpack
